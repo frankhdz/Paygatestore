@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Frankwebdev_Paygatedescription>
+      <version>0.1.0</version>
+    </Frankwebdev_Paygatedescription>
+  </modules>
+  <global>
+      <models>
+
+            
+
+
+            <paygate>
+                <rewrite>
+                    <authorizenet>Frankwebdev_Paygatedescription_Model_Paygate_Authorizenet</authorizenet>
+                </rewrite>
+            </paygate>
+            
+        </models>
+        <helpers>
+            <paygatedescription>
+                <class>Frankwebdev_Paygatedescription_Helper</class>
+            </paygatedescription>
+        </helpers>
+    </global>
+</config> 
